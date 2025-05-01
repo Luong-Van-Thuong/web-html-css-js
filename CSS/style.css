@@ -1,0 +1,72 @@
+/* Kiểu dáng mặc định cho màn hình extra small (dưới 36em) - không cần media query */
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbarheader{
+  display: flex;
+  justify-content: space-between;
+}
+.btn{
+  border: 2px solid #9933FF;
+  border-radius: 4px;
+  padding: 5px;
+  width: auto;
+  height: 50px;
+  margin: 5px;
+  background: #9933FF;
+  color: white;
+}
+.btn1{
+  border: 2px solid #9933FF;
+  border-radius: 4px;
+  padding: 5px;
+  width: auto;
+  height: 50px;
+  margin: 5px;
+  background: white;
+  color: #9933FF;
+}
+.inputtimkiem{
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  width: 94%;
+  height: 40px;
+  margin: 5px;
+}  
+.header02{
+  display: flex;
+  flex-direction: column;
+}
+.header02-1{
+  display: flex;
+  flex-direction: column;
+}
+#head2{
+  display: none;
+}
+.anudemybusiness, .anteachonudemy , .buttontrai, .buttonphai{
+  display: none;
+}
+.btnh{
+  border: 2px solid #9933FF;
+  border-radius: 4px;
+  padding: 5px;
+  width: auto;
+  height: 50px;
+  margin: 5px;
+  background: #9933FF;
+  color: white;
+}
+.btn1h{
+  border: 2px solid #9933FF;
+  border-radius: 4px;
+  padding: 5px;
+  width: auto;
+  height: 50px;
+  margin: 5px;
+  background: white;
+  color: #9933FF;
+}

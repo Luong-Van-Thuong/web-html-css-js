@@ -1,0 +1,76 @@
+/* Medium devices (tablets, 48rem and up) */
+/* Cho máy tính bảng (chế độ dọc) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* CSS cho tablet dọc */
+    .image-img{
+      width: 100px;
+      height: auto;
+    }  
+    .center{
+      justify-content: flex-start;
+    }
+    .an{
+      display: none;
+    } 
+    .rong{
+      width: 0%;
+      display: none;
+    }
+    .imgheader{
+      height: 400px;
+      
+    }
+    .inputtimkiem{
+      width: 98%;
+    }  
+    .header02{
+      margin-left: 10px;
+    }
+    .header01{
+      display: flex;
+      flex-direction: column;
+    }
+    .header01-1{
+      display: flex;
+      flex-direction: column;
+    }
+    .navbarheader{
+      justify-content: flex-start;
+    }
+    .cardscreen{
+      border-radius: 10px;
+    }
+    .world{
+      margin: 0px 10px 0px 10px;
+    }
+    .cardlarge{
+      margin: 0px 10px 0px 10px;
+    }
+    .khampha{
+      margin: 0px 10px 0px 10px;
+      width: 50px;
+    }
+    .cardscreen{
+      width: 200px; /* Điều chỉnh kích thước chiều rộng theo ý muốn */
+      height: 200px; /* Điều chỉnh kích thước chiều cao theo ý muốn */
+      transform: scale(1.5); /* Phóng to phần tử lên 1.5 lần */
+    }
+    .ancardscreen{
+      display: none !important;
+    }
+    .search-container{
+      width: 40%; /* Điều chỉnh độ rộng theo ý muốn */
+    }
+    .khampha{
+      display: flex;
+      justify-content: center;
+      width:80px;
+    }
+    .btn1h, .btnh{
+      width: 100px;
+    }
+    .btn3{
+      width: 50px;
+    }
+}
+

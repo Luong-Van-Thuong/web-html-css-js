@@ -1,0 +1,89 @@
+/* Large devices (desktops, 62rem and up) */
+/* Cho laptop và màn hình lớn hơn */
+@media (min-width: 1200px) {
+  /* CSS cho laptop và desktop */
+  .image-img{
+    width: 100px;
+    height: auto;
+  }   
+    .dauhang{
+      display: flex;
+      justify-content: start;
+    }
+    .timkiem{
+      display: flex;    
+    }
+    .fromtimkiem{
+      border: none;
+    }
+    .borderdiv{    
+      border: 1px solid #000000;
+      border-radius: 4px;
+      padding: 5px;
+      width: auto;
+    }
+    .imgheader{
+      height: 450px;
+      width: 80%;
+    }
+    .an{
+      display: none;
+    } 
+    .rong{
+      width: 0%;
+      display: none;
+    }
+    .timkiem{
+      display: none;
+    }
+    .inputtimkiem{
+      width: 96.5%;
+    } 
+    .header01{
+      display: flex
+    }
+    .header02{
+      margin-left: 10px;
+    }
+    .navbarheader{
+      justify-content: space-between;
+    }
+    .world{
+      margin: 0px 10px 0px 10px;
+      margin-top: 10px;
+    }
+    .cardlarge{
+      margin: 0px 10px 0px 10px;
+    }
+    .cardscreen{
+      transform: scale(1.5); /* Phóng to phần tử lên 1.5 lần */
+    }
+    .navbarheader *{
+      margin: 5px;
+    }   
+    .search-container{
+      width: 40%;
+    }
+    .anudemybusiness, .anteachonudemy{
+      display: flex;
+    }
+    .buttontrai, .buttonphai{
+      display: flex;
+    }
+    .header{
+      position: relative;
+    }
+    .buttonphai{
+      position: absolute;
+      right: 10px;
+      z-index: 10;
+      display: flex;
+      top: calc(80% - 25px); /* Giữa chiều cao của phần tử cha */
+    }
+    .buttontrai{
+      position: absolute;
+      top: 0px;
+      left: 10px;
+      top: calc(80% - 25px); /* Giữa chiều cao của phần tử cha */
+    }
+}

@@ -1,0 +1,32 @@
+.search-container {
+    display: flex; /* Để căn chỉnh biểu tượng và input theo chiều ngang */
+    align-items: center; /* Căn chỉnh các phần tử theo chiều dọc ở giữa */
+    border: 1px solid #ccc; /* Màu và độ dày của viền */
+    border-radius: 50px; /* Bo tròn góc */
+    padding: 5px; /* Khoảng cách bên trong */
+    width: 60%; /* Điều chỉnh độ rộng theo ý muốn */
+    height: 50px;
+  }
+  
+  .search-input {
+    flex-grow: 1; /* Cho phép input chiếm phần không gian còn lại */
+    border: none; /* Loại bỏ viền mặc định của input */
+    padding: 10px;
+    font-size: 16px;
+    outline: none; /* Loại bỏ viền khi focus */
+  }
+  
+  .search-input::placeholder {
+    color: #999; /* Màu chữ placeholder */
+  }
+  
+  .search-icon {
+    margin-left: 8px; /* Khoảng cách giữa input và icon */
+    color: #666; /* Màu của icon */
+  }
+  
+  /* Tùy chỉnh kích thước và màu sắc của icon SVG nếu cần */
+  .search-icon svg {
+    width: 20px;
+    height: 20px;
+  }

@@ -1,0 +1,66 @@
+/* Cho các thiết bị di động nhỏ (điện thoại nhỏ hơn) */
+@media (max-width: 767px) {
+  /* CSS cho điện thoại */
+    .image-img{
+      width: 25%;
+    }
+    .timkiem{
+      display: none;
+    }
+    .m5{
+      margin: 0px 5px 0px 5px;  
+    }
+    .rong{
+      width: 10%;
+    }
+    .header01{
+      display: flex;
+      flex-direction: column;
+    }
+    .header01-1{
+      display: flex;
+      flex-direction: column;
+    }
+    .header01-1{
+      display: none;
+    }    
+    #navbar{
+      display: none;
+      flex-direction: row;
+    }
+    .navbarheader{
+      position: relative;
+      
+    }
+    .navbheader{
+      position: absolute;
+      top: 0px;
+      background-color: white;
+      width: 50%;
+      z-index: 10;
+      display: flex;
+      flex-direction: row;
+      /* Bóng đổ xuống 2px, mờ 4px, màu đen với độ trong suốt 10% */
+      box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2), /* Lớp bóng thứ nhất */
+      -2px -2px 5px rgba(10, 8, 8, 0.1); /* Lớp bóng thứ hai */
+      border: 10px solid white;
+    }
+    .navbar01{
+      display: flex;
+      flex-direction: column;
+    }
+    .navbar01 *{
+      margin: 5px;
+    }
+    #navb02{
+      height: 20px;
+    }
+    .aninput, .ankhampha{
+      display: none !important;
+    }
+    .ancardscreen, .anbtn1, .anbtn, .buttontrai, .buttonphai{
+      display: none !important;
+    }
+    
+    
+}
