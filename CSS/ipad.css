@@ -83,7 +83,7 @@
     .khoahocnoibat1{
       display: flex;
       flex-direction: column;
-      border: 1px solid black;
+      border: 1px solid rgb(156, 152, 152);
       margin: 10px 10px 10px 10px;
     }
     .khoahocnoibat2{
