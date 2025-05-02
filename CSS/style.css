@@ -70,3 +70,41 @@
   background: white;
   color: #9933FF;
 }
+.mright{
+  margin-right: 10px;
+}
+.mright1{
+  margin-right: 5px;
+}
+.mleft{
+  margin-left: 10px;
+}
+.mleft1{
+  margin-left: 8px;
+}
+.mleft2{
+  margin-left: 2px;
+}
+.pright{
+  padding-right: 20px;
+}
+.pright1{
+  padding-right: 10px;
+}
+.bogoc{
+  border-radius: 15px 15px 15px 15px; ; 
+}
+.taokhungvien{
+  border: 1px solid black;
+}
+.m{
+  margin: 5px;
+}
+
+p{
+  margin: 10px;
+}
+
+.mbottom{
+  margin-bottom: 10px;
+}

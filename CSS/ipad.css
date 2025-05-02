@@ -21,7 +21,7 @@
       
     }
     .inputtimkiem{
-      width: 98%;
+      width: 97.7%;
     }  
     .header02{
       margin-left: 10px;
@@ -71,6 +71,26 @@
     }
     .btn3{
       width: 50px;
+    }
+    .image-anh{
+      width: 97%;
+    }
+    .khoahocnoibat{
+      display: flex;
+      justify-content: space-between;
+
+    }
+    .khoahocnoibat1{
+      display: flex;
+      flex-direction: column;
+      border: 1px solid black;
+      margin: 10px 10px 10px 10px;
+    }
+    .khoahocnoibat2{
+      display: flex;
+    }
+    .mleft1{
+      margin-left: 5px;
     }
 }
 
