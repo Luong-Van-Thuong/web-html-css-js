@@ -88,9 +88,23 @@
     }
     .khoahocnoibat2{
       display: flex;
+      justify-content: space-between;
     }
     .mleft1{
       margin-left: 5px;
+    }
+    .pright{
+      padding-right: 10px;
+    }
+    .khoahocnoibat2 div p{
+      margin: 0px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    .mright{
+      margin-right: 5px;
     }
 }
 
