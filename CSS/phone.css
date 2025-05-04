@@ -85,4 +85,7 @@
     .mleft1{
       margin-left: 8px;
     }
+    .item, .item2 {
+      width: 80%; /* Chiều rộng của mỗi item */
+    }
 }

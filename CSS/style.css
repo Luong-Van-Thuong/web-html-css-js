@@ -100,11 +100,138 @@
 .m{
   margin: 5px;
 }
-
+.m10{
+  margin: 10px;
+}
+.m20{
+  margin: 20px;
+}
 p{
   margin: 10px;
 }
 
+.mtop{
+  margin-top: 20px;
+}
+.mtop1{
+  margin-top: 10px;
+}
 .mbottom{
   margin-bottom: 10px;
+}
+
+.w100{
+  width: 100%;
+}
+.h100{
+  height: 100%;
+}
+.w98{
+  width: 80%;
+}
+.line {
+  border-bottom: 1px solid #ccc;
+}
+.container1 {
+  /* Các thuộc tính flex khác */
+  display: flex;
+  flex-wrap: nowrap; /* Không cho phép xuống dòng */
+  overflow-x: auto;
+  gap: 3px;
+}
+
+.container1::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.item {
+  flex-shrink: 0; /* Ngăn các item co lại */
+  margin-right: 10px; /* Khoảng cách giữa các item */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 40%; /* Chiều rộng của mỗi item */
+}
+
+/* Loại bỏ margin-right ở item cuối cùng để tránh khoảng trắng thừa */
+.item:last-child {
+  margin-right: 0;
+}
+
+.buttonphai1, .buttontrai1 {
+  display: none;
+}
+
+.trochuot:hover{
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+.hangngang{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; /* Không cho phép xuống dòng */
+}
+
+.hangdoc{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; /* Không cho phép xuống dòng */
+}
+
+.notm-p{
+  margin: 0px;
+  padding: 0px;
+}
+
+.vang{
+    color: #FFA500;
+}
+
+.p10{
+  padding: 10px;
+} 
+.w100{
+  width: 100%;
+}
+
+.w24{
+  width: 24%;
+}
+.h200{
+  height: 200px;
+}
+.df{
+  display: flex;  
+}
+.dfjc{
+  justify-content: center;
+}
+#sc2{
+  display: none;
+}
+/* Section 2*/
+.container2 {
+  /* Các thuộc tính flex khác */
+  display: flex;
+  flex-wrap: nowrap; /* Không cho phép xuống dòng */
+  overflow-x: auto;
+  gap: 3px;
+}
+
+.container2::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+.buttonphai2, .buttontrai2 {
+  display: none;
+}
+.item2 {
+  flex-shrink: 0; /* Ngăn các item co lại */
+  margin-right: 10px; /* Khoảng cách giữa các item */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 40%; /* Chiều rộng của mỗi item */
 }

@@ -37,7 +37,7 @@
       display: none;
     }
     .inputtimkiem{
-      width: 96.5%;
+      width: auto;
     } 
     .header01{
       display: flex
@@ -108,5 +108,65 @@
       margin-left: auto; /* Tự động căn lề trái */
       margin-right: auto; /* Tự động căn lề phải */
     }
+    .w30{
+      width: 30%;
+    }
+    .container1{
+      position: relative;
+    }
+    .buttonphai1{
+      position: absolute;
+      right: 10px;
+      z-index: 10;
+      display: flex;
+      top: calc(50% - 25px); /* Giữa chiều cao của phần tử cha */
+    }
+    .buttontrai1{
+      position: absolute;
+      top: 0px;
+      left: 10px;
+      display: flex;
+      top: calc(50% - 25px); /* Giữa chiều cao của phần tử cha */
+    }
+    .item{
+      width: 24%;
+    }
+    .image-anh2{      
+      height: 200px; /* Chiều cao tự động để duy trì tỷ lệ khung hình */
+      border-radius: 10px; /* Bo tròn góc của hình ảnh */
+    }
+    .w24{
+      width: 20%;
+    }
+    .h200{
+      height: 200px;
+    }
+    .df{
+      display: flex;  
+    }
+    .dfjc{
+      justify-content: center;
+    }
 
+    /*Section 2*/
+    .container2{
+      position: relative;
+    }
+    .buttonphai2{
+      position: absolute;
+      right: 10px;
+      z-index: 10;
+      display: flex;
+      top: calc(50% - 25px); /* Giữa chiều cao của phần tử cha */
+    }
+    .buttontrai2{
+      position: absolute;
+      top: 0px;
+      left: 10px;
+      display: flex;
+      top: calc(50% - 25px); /* Giữa chiều cao của phần tử cha */
+    }
+    .item2{
+      width: 24%;
+    }
 }
