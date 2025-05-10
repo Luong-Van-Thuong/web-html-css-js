@@ -88,4 +88,36 @@
     .item, .item2 {
       width: 80%; /* Chiều rộng của mỗi item */
     }
+    .gr{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 cột với chiều rộng bằng nhau */
+      grid-template-rows: repeat(2, 1fr); /* 2 hàng với chiều cao bằng nhau */
+    }
+    .linewhite{
+      width: 99%;
+      display: flex;
+      justify-content: center;
+    }
+    #content-exploretopskills, #content-exploretopskills1, #content-exploretopskills2, #content-exploretopskills3{
+      display: none ;
+    }
+    .linewhite2{
+      display: none;
+    }
+    .footercontent{
+      position: relative;
+    }
+
+    .w80{
+      width: 95%;
+    }
+    .w20{
+      width: 5%;
+    }
+    .containerindex2{
+      width: 100%;
+    }
+    .an{
+      display: none;
+    }
 }

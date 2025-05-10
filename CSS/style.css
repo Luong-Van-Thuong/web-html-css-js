@@ -4,16 +4,23 @@
   justify-content: center;
   align-items: center;
 }
+.center2{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
 .navbarheader{
   display: flex;
   justify-content: space-between;
+  margin: 10px;
 }
 .btn{
   border: 2px solid #9933FF;
   border-radius: 4px;
   padding: 5px;
   width: auto;
-  height: 50px;
+  height: 3em;
   margin: 5px;
   background: #9933FF;
   color: white;
@@ -23,7 +30,7 @@
   border-radius: 4px;
   padding: 5px;
   width: auto;
-  height: 50px;
+  height: 3em;
   margin: 5px;
   background: white;
   color: #9933FF;
@@ -32,7 +39,7 @@
   border: 2px solid black;
   border-radius: 4px;
   padding: 5px;
-  width: 94%;
+  width: auto;
   height: 40px;
   margin: 5px;
 }  
@@ -55,7 +62,7 @@
   border-radius: 4px;
   padding: 5px;
   width: auto;
-  height: 50px;
+  height: 3em;
   margin: 5px;
   background: #9933FF;
   color: white;
@@ -65,7 +72,7 @@
   border-radius: 4px;
   padding: 5px;
   width: auto;
-  height: 50px;
+  height: 3em;
   margin: 5px;
   background: white;
   color: #9933FF;
@@ -92,7 +99,7 @@
   padding-right: 10px;
 }
 .bogoc{
-  border-radius: 15px 15px 15px 15px; ; 
+  border-radius: 15px 15px 15px 15px;  
 }
 .taokhungvien{
   border: 1px solid rgb(129, 125, 125);
@@ -123,15 +130,31 @@ p{
 .w100{
   width: 100%;
 }
+.wauto{
+  width: auto;
+}
 .h100{
   height: 100%;
+}
+.w100{
+  width: 100%;
 }
 .w98{
   width: 80%;
 }
+.w9{
+  width: 90%;
+}
+.w50{
+  width: 50%;
+}
 .line {
   border-bottom: 1px solid #ccc;
 }
+.linewhite {
+  border-bottom: 1px solid #FFFFFF;
+}
+
 .container1 {
   /* Các thuộc tính flex khác */
   display: flex;
@@ -159,7 +182,7 @@ p{
   margin-right: 0;
 }
 
-.buttonphai1, .buttontrai1 {
+.buttonphai1, .buttontrai1, .hidden {
   display: none;
 }
 
@@ -188,13 +211,13 @@ p{
 .vang{
     color: #FFA500;
 }
+.xamnhat{
+  background-color: #E6E6FA;
+}
 
 .p10{
   padding: 10px;
 } 
-.w100{
-  width: 100%;
-}
 
 .w24{
   width: 24%;
@@ -208,9 +231,19 @@ p{
 .dfjc{
   justify-content: center;
 }
-#sc2{
-  display: none;
+
+.df-fd-c{
+  display: flex;
+  flex-direction: column;
 }
+.dffs{
+  display: flex;
+  justify-content: flex-start;
+}
+.dfar{
+  justify-content: space-around;
+}
+
 /* Section 2*/
 .container2 {
   /* Các thuộc tính flex khác */
@@ -234,4 +267,66 @@ p{
   align-items: center;
   flex-direction: column;
   width: 40%; /* Chiều rộng của mỗi item */
+}
+.tim{
+  background-color: #080000;
+}
+.trang{
+  color: #FFFFFF;
+}
+.sr{
+  justify-content: space-between;
+}
+
+.al-center{
+  align-content: center;
+}
+h4{
+  margin: 0px;
+  padding: 0px;
+}
+.botron{
+  border-radius: 50% 50% 50% 50%; 
+}
+#sc2{
+  display: none;
+}
+#content-exploretopskills, #content-exploretopskills1, #content-exploretopskills2, #content-exploretopskills3{
+  display: display;
+}
+
+.fs18 p{
+  font-size: 18px;
+}
+.whvideo{
+  width: 100%;
+  height: 300px;
+  object-fit:cover;
+}
+.wh100{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.videodemo{
+  position: relative;
+}
+.anhvideo{
+  position: absolute;
+  top: 0px;
+}
+.w20{
+  width: 20%;
+}
+.bgPlum{
+  background-color: #dbb4db;
+  color: black;
+}
+.containerindex2{
+    width: 80%;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.dfjcg{
+  display: grid;
 }

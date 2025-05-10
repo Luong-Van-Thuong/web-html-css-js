@@ -4,8 +4,9 @@
     border: 1px solid #ccc; /* Màu và độ dày của viền */
     border-radius: 50px; /* Bo tròn góc */
     padding: 5px; /* Khoảng cách bên trong */
-    width: 60%; /* Điều chỉnh độ rộng theo ý muốn */
-    height: 50px;
+    width: 45%; /* Điều chỉnh độ rộng theo ý muốn */
+    height: 50%;
+    margin-top: 10px;
   }
   
   .search-input {

@@ -5,6 +5,7 @@
   .image-img{
     width: 100px;
     height: auto;
+    vertical-align: middle;
   }   
     .dauhang{
       display: flex;
@@ -23,8 +24,8 @@
       width: auto;
     }
     .imgheader{
-      height: 450px;
-      width: 80%;
+      height: 550px;
+      width: 70%;
     }
     .an{
       display: none;
@@ -47,23 +48,20 @@
     }
     .navbarheader{
       justify-content: space-between;
+      height: 4em;
     }
     .world{
       margin: 0px 10px 0px 10px;
-      margin-top: 10px;
     }
     .cardlarge{
       margin: 0px 10px 0px 10px;
     }
-    .cardscreen{
-      transform: scale(1.5); /* Phóng to phần tử lên 1.5 lần */
-    }
+    /* .cardscreen{
+      transform: scale(1.5); 
+    } */
     .navbarheader *{
       margin: 5px;
     }   
-    .search-container{
-      width: 40%;
-    }
     .anudemybusiness, .anteachonudemy{
       display: flex;
     }
@@ -119,14 +117,14 @@
       right: 10px;
       z-index: 10;
       display: flex;
-      top: calc(50% - 25px); /* Giữa chiều cao của phần tử cha */
+      top: calc(45% - 25px); /* Giữa chiều cao của phần tử cha */
     }
     .buttontrai1{
       position: absolute;
       top: 0px;
       left: 10px;
       display: flex;
-      top: calc(50% - 25px); /* Giữa chiều cao của phần tử cha */
+      top: calc(45% - 25px); /* Giữa chiều cao của phần tử cha */
     }
     .item{
       width: 24%;
@@ -143,6 +141,12 @@
     }
     .df{
       display: flex;  
+    }
+    .df2{
+      display: flex;  
+    }
+    .df2 *{
+      margin: 1px;
     }
     .dfjc{
       justify-content: center;
@@ -168,5 +172,46 @@
     }
     .item2{
       width: 24%;
+    }
+    .grid, .grid1, .grid2{
+      display: flex;
+      
+    }
+    .gridfooter{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* 2 cột với chiều rộng bằng nhau */
+      grid-template-rows: repeat(2, 1fr); /* 2 hàng với chiều cao bằng nhau */
+    }
+    .linewhite{
+      display: none;
+    }
+    #hien, #hien1, #hien2, #hien3, #an, #an1, #an2, #an3{
+      display: none;
+    }
+    .linewhite2 {
+      border-bottom: 1px solid #FFFFFF;
+      width: 90%;
+    }
+    p{
+      font-size: 12px;
+    }
+    .whvideo{
+      width: 50%;
+      height: 400px;
+    }
+    .w80{
+      width: 95%;
+    }
+    .w20{
+      width: 5%;
+    }
+    .w3content2{
+      width: 30%;
+    }
+        .footeraddcart{
+      display: none;
+    }
+    .an{
+      display: none;
     }
 }
