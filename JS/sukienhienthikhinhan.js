@@ -281,8 +281,7 @@ function showallcoursecontent(coursecontent, showcoursecontent, down, up){
                     up.style.display = 'none';
                 }
             });
-        }
-        
+        }        
     });
 }
 
@@ -306,12 +305,16 @@ document.addEventListener('DOMContentLoaded', () =>{
     const cct22 = document.getElementById('coursecontent22');   
     const cct23 = document.getElementById('coursecontent23');
     const cct24 = document.getElementById('coursecontent24');
+    const cct25 = document.getElementById('coursecontent25');
+    const cct26 = document.getElementById('coursecontent26');
     const up21 = document.getElementById('indexup21');
     const down21 = document.getElementById('indexdown21'); 
     const up22 = document.getElementById('indexup22');
     const down22 = document.getElementById('indexdown22');  
     const up23 = document.getElementById('indexup23');
     const down23 = document.getElementById('indexdown23');
+    const up24 = document.getElementById('indexup24');
+    const down24 = document.getElementById('indexdown24');    
     const showcoursecontent2 = document.getElementsByClassName('hiencoursecontent2');
     // Call function
     showallcoursecontent(ctindex0, showcoursecontent, down, up);
@@ -319,4 +322,5 @@ document.addEventListener('DOMContentLoaded', () =>{
     showallcoursecontent(cct20, showcoursecontent2, down21, up21);
     displaysection(cct21, cct22, down22, up22);
     displaysection(cct23, cct24, down23, up23);
+    displaysection(cct25, cct26, down24, up24);
 });

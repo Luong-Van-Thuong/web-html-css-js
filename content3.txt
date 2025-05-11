@@ -1,29 +1,29 @@
-The Complete AI Guide: Learn ChatGPT, Generative AI & More\
-50+ Generative AI Tools to 10x Business,Productivity, Creativity| ChatGPT, Artificial Intelligence, Prompt Engineering\
-269,044 students\
-Last update 4/2025\
-Generative AI: Create content, synthsize information, and learn faster than ever with effective prompt engineering!\
-ChartGPT: Turn your creativity into paid work, generate fresh ideas, reach new audiences, and scale your projects!\
-Productivity: Achieve goals faster with artiricial intelligence, manage time, prioritize AI,  capitalize ontrends, create ads, newsletters, specialized content, and media campaigns!\
-AI Voice Tools: Create an AI avater that transforms scripts into presentations and quikly generate social media content!\
-AI Automation: Task automation with Zapizer, Make, and OpenAI APIs, integrating AI in efficient and scalable ways!\
-AI Music Tools: Create unique compositions for any types of video and save time with a streamlined createve process.\
-Coding: Combine the power of ChatGPT with programming fundamentals, algorithms, debugging, and documentation!\
-Midjourney: Use prompts, parameters, and modifiers to create amazing images that showcase your personal style and creativity!\
-35.5 hours on-demand video\
+Deep Learning A-Z 2025: Neural Networks, AI & ChatGPT Prize\
+Learn to create Deep Learning models in Python from two Machine Learning, Data Science experts. Code templates included.\
+999++ students\
+Last update 2/2025\
+Understand the intuition behind Artificial Neural Networks\
+Understand the intuition behind Convolutional Neural Networks\
+Understand the intuition behind Recurrent Neural Networks\
+Understand the intuition behind Self-Organizing Maps\
+Understand the intuition behind Boltzmann Machines\
+Understand the intuition behind AutoEncoders\
+Apply Artificial Neural Networks in practice\
+Apply Convolutional Neural Networks in practice\
+22h hours on-demand video\
 22 articles\
-120 downloadable resources\
-50 sections . 481 lectures . 33h 47m total length\
-ChatGPT Complete Guide Introduction\
-Start Here First(Important Course Details)\
+99+ downloadable resources\
+27 sections . 481 lectures . 22h 47m total length\
+welcomes to the course\
+Get the Codes, Datasets and Slides Here\
 This introduction welcomes students to the "Complete AI Guide to 10x Your Productivity and Creativity" course, created in collaboration with Leap Year Learning. It emphasizes the value of research in saving time and underscores the course's aim to teach the most powerful AI tools for personal and professional projects. Students will gain confidence and expertise in using rapidly evolving AI tools, with the course serving as a continually updated resource. The walkthrough covers course content, including sections on ChatGPT fundamentals and prompt engineering.\
 ChatGPT for Personal & Professional Growth\
 Professionals, Students, AI Enthusiasts\
 Introduction to a Comprehensive AI Productivity Course\
 Understanding course objectives, Learning about AI tools for productivity\
 Ability to effectively use AI tools to enhance productivity\
-ChatGPT: Fundamentals and 150+ Prompting Ideas for ChatGPT\
-What We'll Learn About Using ChatGPT\
+ANN intuition\
+What You'll Need for ANN\
 In this introductory overview, students receive a summary of the key topics and skills they will learn throughout the course. 
 It outlines the practical applications of ChatGPT in various fields, the principles of effective prompt engineering, and the ethical considerations of using AI. 
 The session sets the stage for a comprehensive learning journey into leveraging ChatGPT for personal and professional growth.\
@@ -32,7 +32,7 @@ Professionals, Aspiring Leaders, AI Enthusiasts\
 Overview of Course Topics and Skills in ChatGPT\
 Understanding AI applications, prompt engineering, ethical considerations\
 Preparedness to embark on a learning journey with ChatGPT\
-ChatGPT vs. Google\
+How Neural Networks Learn: Gradient Descent and Backpropagation Explained\
 This module compares ChatGPT with Google, focusing on their different capabilities and use cases. 
 It highlights how ChatGPT provides conversational responses and personalized assistance, while Google excels in quick information retrieval and search functionalities. 
 The session guides students on when to use each tool based on their specific needs and objectives. 
@@ -42,7 +42,7 @@ Finance Professionals, Leaders, Managers\
 Understanding the Comparative Advantages of ChatGPT and Google\
 Differentiating between AI and search engine use cases, optimizing research and decision-making\
 Ability to choose the appropriate tool for various research and information retrieval tasks\
-ChatGPT Layout and Interface\
+Understanding Neurons: The Building Blocks of Artificial Neural Networks\
 This lesson covers the layout and interface of ChatGPT, focusing on the differences between regular users and ChatGPT Plus users. 
 It explains how to create new chats, revisit old conversations, and utilize various interface features like regenerating responses and rating their helpfulness. 
 The session highlights additional options available to Plus users, aiming to familiarize students with the interface for optimal use. 
@@ -52,7 +52,8 @@ Product Managers, Customer Service Professionals\
 Navigating the ChatGPT Interface for Enhanced Productivity\
 DCreating and managing chats, utilizing interface features, understanding Plus user benefits\
 Ability to efficiently navigate and utilize the ChatGPT interface\
-image/sc2-2.jpg\
-1.699.000đ\1.699.000đ
+image/sc2-4.png\
+3.999.000đ\
+3.999.000đ
 
 

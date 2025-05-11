@@ -156,9 +156,9 @@
     .w20{
       width: 5%;
     }
-    .container2{
-      width: 80%;
-    }
+    /* .container2{ */
+      /* width: 80%;
+    } */
     .w1content2{
       width: 100%;
     }
@@ -184,6 +184,8 @@
       box-sizing: border-box;
       position: relative;
     }
-
+    .anofpc{
+      display: an;
+    }
 }
 

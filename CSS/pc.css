@@ -196,8 +196,8 @@
       font-size: 12px;
     }
     .whvideo{
-      width: 50%;
-      height: 400px;
+      width: 60%;
+      height: 600px;      
     }
     .w80{
       width: 95%;
@@ -213,5 +213,28 @@
     }
     .an{
       display: none;
+    }
+    .anindex{
+      display: none;
+    }
+    .w100pc{
+      width: 100%;
+    }
+    .container2, .container1{
+      width: 100%;
+    } 
+    .navbarheader{
+      position: relative;
+    }
+    .displaybefor{
+      position: absolute;
+      right: 1em;
+      top: 4em;
+      width: 20%;
+      background-color: bisque;
+      
+    }
+    .displaybefor p{
+      font-size: 20px;
     }
 }
